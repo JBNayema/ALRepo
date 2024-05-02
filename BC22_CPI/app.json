@@ -1,0 +1,47 @@
+{
+  "id": "da7e9061-a0ef-414c-97a2-f2186580484e",
+  "name": "BC22",
+  "publisher": "Default Publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "target": "OnPrem",
+  "dependencies": [
+    {
+      "id": "2e6cbe6c-9856-43e1-ab12-0fb59d9e9695",
+      "publisher": "Serenic Software",
+      "name": "Serenic Navigator",
+      "version": "22.5.0.0"
+    },
+    {
+      "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "publisher": "Serenic Software",
+      "name": "Serenic Base Application",
+      "version": "22.5.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "22.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50199
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "11.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ]
+}

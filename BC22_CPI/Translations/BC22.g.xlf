@@ -1,0 +1,2039 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="BC22">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 393995862 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Program Services</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Program Services - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 393995862 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Program Services - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 393995862 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Program Services - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2945047680 - NamedType 321786523" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The specified transit number %1 for bank %2  is not valid.</source>
+          <note from="Developer" annotates="general" priority="2">%1 the transit number, %2 The bank  No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Export Payments (ACH) CPI - NamedType BankTransitNumNotValidErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2945047680 - NamedType 193937237" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must now run the program that transmits the payments file to the bank. Transmit the file named %1 located at %2 to %3 (%4 %5 %6).  After the transmission is completed, you will be asked if it worked correctly.  Are you ready to transmit (answer No to cancel the transmission process)?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = full  filename, %2 = file path, %3 = file name, %4 = bank account table, %5 = bank account no.caption, %6 = bank account no. </note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Export Payments (ACH) CPI - NamedType ConfirmTransmissioinQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2945047680 - NamedType 431846035" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 is blocked for %2 processing.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = account type, %2 = customer.blocked</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Export Payments (ACH) CPI - NamedType CustomerBlockedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2945047680 - NamedType 2271559546" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The specified transit number %1 for customer %2  is not valid.</source>
+          <note from="Developer" annotates="general" priority="2">%1 the transit number, %2 The customer  No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Export Payments (ACH) CPI - NamedType CustTransitNumNotValidErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2945047680 - NamedType 1612732572" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Did the transmission work properly?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Export Payments (ACH) CPI - NamedType DidTransmissionWorkQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2945047680 - NamedType 1529081201" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot end export batch until an export file is started.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Export Payments (ACH) CPI - NamedType ExportBatchFileNotStartedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2945047680 - NamedType 4053058515" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot end export batch until an export batch is started.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Export Payments (ACH) CPI - NamedType ExportBatchNotStartedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2945047680 - NamedType 3706595791" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot export details until an export batch is started.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Export Payments (ACH) CPI - NamedType ExportDetailsFileNotCompletedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2945047680 - NamedType 856937851" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot export details until an export file is started.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Export Payments (ACH) CPI - NamedType ExportDetailsFileNotStartedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2945047680 - NamedType 55042921" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot start new export batch until previous batch is completed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Export Payments (ACH) CPI - NamedType ExportFileNotCompletedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2945047680 - NamedType 823709211" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot end export file until export batch is ended.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Export Payments (ACH) CPI - NamedType ExportFileNotEndedFileNotEndedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2945047680 - NamedType 3318198610" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot end export file until an export file is started.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Export Payments (ACH) CPI - NamedType ExportFileNotEndedFileNotStartedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2945047680 - NamedType 1280806597" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot start export batch until an export file is started.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Export Payments (ACH) CPI - NamedType ExportFileNotStartedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2945047680 - NamedType 164595590" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 in %2 %3 is invalid.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = the export file path, %2 the field in the table, ie, bank, customer etc, %3 = the identifier for the record, ie, bankaccount number etc. </note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Export Payments (ACH) CPI - NamedType ExportFilePathErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2945047680 - NamedType 2711304839" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot start new Export File while %1 is in process.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = the filename that is already being processed.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Export Payments (ACH) CPI - NamedType ExportInProcessErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2945047680 - NamedType 1677604559" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File %1 already exists. Check the %2 in %3 %4.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = file name, %2 file patch, the bank account table, the identifier in the bank account table, ie the .No</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Export Payments (ACH) CPI - NamedType FileAlreadyExistsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2945047680 - NamedType 2341289719" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File %1 does not exist.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = the file name.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Export Payments (ACH) CPI - NamedType FileDoesNoteExistErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2945047680 - NamedType 2936467125" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Either %1 or %2 must refer to either a %3 or a %4 for an electronic payment.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Account Type, %2 = the account,%3 = Vendor table, %4 = Customer table</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Export Payments (ACH) CPI - NamedType InvalidPaymentSpecErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2945047680 - NamedType 1905097733" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 is blocked for privacy.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = account type</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Export Payments (ACH) CPI - NamedType PrivacyBlockedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2945047680 - NamedType 899121333" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The specified transit number %1 for vendor %2  is not valid.</source>
+          <note from="Developer" annotates="general" priority="2">%1 the transit number, %2 The Vendor No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Export Payments (ACH) CPI - NamedType VendorTransitNumNotValidErr</note>
+        </trans-unit>
+        <trans-unit id="Page 393995862 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Program Services</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Program Services - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 393995862 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Program Services - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 393995862 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Program Services - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 393995862 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Name field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Program Services - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check Stub CPI Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 1324170193" size-unit="char" translate="yes" xml:space="preserve">
+          <source> is already applied to %1 %2 for employee %3.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Document type, %2 = Document No., %3 = Employee No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType AlreadyAppliedToEmployeeErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 3285233284" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType AmountCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 2042524856" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot print check because employee %1 is blocked due to privacy.</source>
+          <note from="Developer" annotates="general" priority="2">%1 - Employee no.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType BlockedEmplForCheckErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 3919590978" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType CheckNoTextCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 433976717" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType CheckNoText_Control1480000CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 3112881028" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType DocDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 2833281111" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType DocNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 1085275642" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType LineAmountCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 1857519089" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Discount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType LineDiscountCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 3707963479" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Posting_DescriptionCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 1905097733" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 must not be blocked for privacy.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = customer or vendor, %2 = customer or vendor code.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType PrivacyBlockedErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 1328893987" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ENU=You must select One Check per Vendor per Document No.;FRA=Vous devez s�lectionner un ch�que par vendeur et par N� de document.;ESM=Debe seleccionar Un cheque por vendedor por documento n�m.;ENC=You must select One Check per Vendor per Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType SNText01</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 3241983838" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ENU=____________________________________;FRA=____________________________________;ESM=____________________________________;ENC=____________________________________</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType SNText02</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Preview is not allowed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Check No. must be filled in.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filters on %1 and %2 are not allowed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>XXXXXXXXXXXXXXXX</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>must be entered.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text004</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 1370456556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Bank Account and the General Journal Line must have the same currency.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text005</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 3283546407" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Both Bank Accounts must have the same currency.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text008</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 1664139952" size-unit="char" translate="yes" xml:space="preserve">
+          <source>XXXXXXXXXX</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text010</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 1026443335" size-unit="char" translate="yes" xml:space="preserve">
+          <source>XXXX</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text011</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 2301836569" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 already exists.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text013</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 4214926420" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check for %1 %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text014</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 1195352358" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In the Check report, One Check per Vendor and Document No.\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text016</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 557655741" size-unit="char" translate="yes" xml:space="preserve">
+          <source>must not be activated when Applies-to ID is specified in the journal lines.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text017</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 219837695" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text019</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 1940672225" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The total amount of check %1 is %2. The amount must be positive.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text020</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 2578368842" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID VOID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text021</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 665278991" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NON-NEGOTIABLE</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text022</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 1302975608" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test print</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text023</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 196491397" size-unit="char" translate="yes" xml:space="preserve">
+          <source>XXXX.XX</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text024</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 834188014" size-unit="char" translate="yes" xml:space="preserve">
+          <source>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text025</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 1148659762" size-unit="char" translate="yes" xml:space="preserve">
+          <source> is already applied to %1 %2 for customer %3.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text030</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 510963145" size-unit="char" translate="yes" xml:space="preserve">
+          <source> is already applied to %1 %2 for vendor %3.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text031</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 3908497555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Account,Customer,Vendor,Bank Account,,,Employee</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text062</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 2633104321" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must not be %2 for %3 %4.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType Text064</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 2412089670" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warning:  Checks cannot be financially voided when Force Doc. Balance is set to No in the Journal Template.  Do you want to continue anyway?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType USText001</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 498999819" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Process cancelled at user request.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType USText002</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 3518573881" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Check No. must include at least one digit, so that it can be incremented.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType USText004</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 2243180647" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot use the &lt;blank&gt; %1 option with a Canadian style check. Please check %2 %3.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType USText006</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 2880877264" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot use the Spanish %1 option with a Canadian style check. Please check %2 %3.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType USText007</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 1413228709" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType USText011</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 775532092" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType USText012</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 137835475" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType USText013</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 3795106154" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Discount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType USText014</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 3157409537" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType USText015</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - NamedType 1882016303" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - NamedType USText017</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - Control 2663384385 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the bank account that the check will be drawn from.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - Control BankAccount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - Control 2663384385 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - Control BankAccount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - Control 3691953284 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want each check to commit to the database after printing instead of at the end of the print job. This allows you to avoid differences between the data and check stock on networks where the print job is cached.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - Control CommitEachCheck - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - Control 3691953284 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Commit Each Check</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - Control CommitEachCheck - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - Control 1563725732 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if only one check is printed per vendor for each document number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - Control OneCheckPerVendorPerDocumentNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - Control 1563725732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One Check per Vendor per Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - Control OneCheckPerVendorPerDocumentNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - Control 1059736969 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you use check forms with preprinted stubs.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - Control PreprintedStub - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - Control 1059736969 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Preprinted Stub</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - Control PreprintedStub - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - Control 2992590101 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if checks are printed again if you canceled the printing due to a problem.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - Control ReprintChecks - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - Control 2992590101 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reprint Checks</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - Control ReprintChecks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - Control 846100057 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want to print the checks on blank paper before you print them on check forms.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - Control TestPrint - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - Control 846100057 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Print</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - Control TestPrint - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - Control 3400530472 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the last check that was issued. If you have entered a number in the Last Check No. field in the Bank Account Card window, the number will appear here when you fill in the Bank Account field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - Control UseCheckNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2405232096 - Control 3400530472 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Check No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Check Stub CPI - Control UseCheckNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Document - Test</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3285233284" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType AmountCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3956407805" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bill-to</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Bill_toCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3550254176" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType ContactCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 4036938315" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Continued</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType ContinuedCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3500113388" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Continued</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType ContinuedCaption_Control1020002Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 2840899271" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Continued</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType ContinuedCaption_Control1020007Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3902048196" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Continued</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType ContinuedCaption_Control155Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3801798214" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Continued</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType ContinuedCaption_Control210Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3671321646" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Continued</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType ContinuedCaption_Control223Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType CurrReport_PAGENOCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 8291778" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType CurrReport_PAGENO_Control1029005CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 4036976869" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Customer_InformationCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 817831222" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType DescriptionCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 2124006630" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Document_No_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3762331404" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Doc. Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Doc__DateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 4153422933" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Due_DateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 2490868798" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warning!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType ErrorText_Number_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3743559336" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warning!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType ErrorText_Number__Control97CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 389163204" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Doc. No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType External_Doc__No_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 1792006209" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Header Dimensions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Header_DimensionsCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 669227530" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Amount Excl. Tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Invoice_Amount_Excl__TaxCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 240423442" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Charge Specification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Item_Charge_SpecificationCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3849971554" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Dimensions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Line_DimensionsCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 638740601" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Posting_DateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3594016787" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType SalesLine2_DescriptionCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 2109051952" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assignable Qty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType SalesLine2_QuantityCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 4160607200" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Discount Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType SalesTaxAmountLine__Invoice_Discount_Amount_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3531636130" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inv. Disc. Base Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType SalesTaxAmountLine__Inv__Disc__Base_Amount_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3586735707" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType SalesTaxAmountLine__Tax_Amount__Control1020000CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 1714914649" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Area Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType SalesTaxAmountLine__Tax_Area_Code_for_Key_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3603011956" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Base Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType SalesTaxAmountLine__Tax_Base_Amount_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 699038571" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType SalesTaxAmountLine__Tax___CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 928508711" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Document - Test</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Sales_Document___TestCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 777648120" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Document - Test</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Sales_Document___TestCaption_Control1Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 2580430492" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Sales_Header___Document_Date_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 1605494057" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Sales_Header___Document_Date__Control106CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 695613564" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Sales_Header___Document_Date__Control132CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 485866486" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Sales_Header___Document_Date__Control138CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 2557156069" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Sales_Header___Due_Date_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 335095205" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Sales_Header___Due_Date__Control19CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 4107666859" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Sales_Header___Order_Date_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 199599629" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pmt. Discount Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Sales_Header___Pmt__Discount_Date_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 1686113693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pmt. Discount Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Sales_Header___Pmt__Discount_Date__Control22CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 1035153705" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Sales_Header___Posting_Date_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 4284060221" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Sales_Header___Posting_Date__Control105CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 1315373752" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Sales_Header___Posting_Date__Control131CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3655407566" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Sales_Header___Posting_Date__Control137CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 2635663937" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Sales_Header___Shipment_Date_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 2264591731" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Disc. %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Sales_Line___Line_Discount___CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3718983378" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Tax Amounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Sales_Tax_AmountsCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 313188447" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seller</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType SellerCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 1569381418" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Sell_toCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 2047603120" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType ShipmentCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3663343382" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Ship_toCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3384896548" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType StatusCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3126303398" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subtotal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType SubtotalCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 696218754" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inv. Discount Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType TempSalesLine__Inv__Discount_Amount_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3180208483" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Terms</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType TermsCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship and Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order Posting: %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text004</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 1370456556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total %1 Incl. Tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text005</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 2008153173" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be specified.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text006</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 2645849790" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be %2 for %3 %4.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text007</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3283546407" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 does not exist.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text008</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3921243024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must not be a closing date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text009</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 1664139952" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 is not within your allowed range of posting dates.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text010</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 2939533186" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is nothing to post.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text012</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 2301836569" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be entered on the purchase order header.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text013</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 4214926420" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Document: %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text014</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3577229803" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text015</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 1195352358" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 does not exist on customer entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text016</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 557655741" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 %3 does not exist.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text017</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 857534312" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receive and Credit Memo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text018</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 219837695" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 must be specified.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text019</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 1940672225" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be 0 when %2 is 0.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text020</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 2578368842" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Drop shipments are only possible for items.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text021</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 665278991" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot ship sales order line %1 because the line is marked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text022</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 1302975608" size-unit="char" translate="yes" xml:space="preserve">
+          <source>as a drop shipment and is not yet associated with a purchase order.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text023</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 196491397" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 on the shipment is not the same as the %1 on the sales header.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text024</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 834188014" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line %1 of the return receipt %2, which you are attempting to invoice, has already been invoiced.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text025</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3216065459" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line %1 of the shipment %2, which you are attempting to invoice, has already been invoiced.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text026</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3853762076" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must have the same sign as the shipments.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text027</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 510963145" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receive</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text031</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 4168233824" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return Order Posting: %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text032</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3530537207" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total %1 Excl. Tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text033</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3699446230" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter "Yes" in %1 and/or %2 and/or %3.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text034</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3061749613" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must enter the customer's %1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text035</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 2424052996" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The quantity you are attempting to invoice is greater than the quantity in shipment %1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text036</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 1786356379" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The quantity you are attempting to invoice is greater than the quantity in return receipt %1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text037</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 342054122" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 on the return receipt is not the same as the %1 on the sales header.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text038</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3999324801" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must have the same sign as the return receipt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text039</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3317493534" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be zero.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text043</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3786281128" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must not be %2 for %3 %4.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text045</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 129010449" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be completely preinvoiced before you can ship or invoice the line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text046</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 1250087837" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 can at most be %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text053</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 2356572048" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be at least %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Text054</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 1583171122" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType TotalCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3558382386" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType TotalCaption_Control1020012Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3549148282" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType TotalCaption_Control1020021Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 446880010" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType TotalCaption_Control220Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 2446068092" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType Unit_PriceCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 2728183265" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Discount Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType VATAmountLine__Invoice_Discount_Amount__Control173CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 1785301537" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inv. Disc. Base Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType VATAmountLine__Inv__Disc__Base_Amount__Control171CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3996024107" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType VATAmountLine__Line_Amount__Control169CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3613075674" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType VATAmountLine__VAT_Amount__Control150CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 502818378" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Base</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType VATAmountLine__VAT_Base__Control151CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 4036425911" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Identifier</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType VATAmountLine__VAT_Identifier_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 1646491659" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType VATAmountLine__VAT___CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 232398666" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Discount on Tax</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType VATDiscountAmountCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - NamedType 3936256794" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Amount Specification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - NamedType VAT_Amount_SpecificationCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - ReportDataItem 1192395785 - Property 1806354803" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - ReportDataItem Sales Header - Property RequestFilterHeading</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - Control 3306553381 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Line Distributions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - Control IncludeLineDistributions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - Control 3078300311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order/Return Order Posting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - Control Order/Return Order Posting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - Control 1874636371 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies invoices to test before you post them, to check whether there are any posting dates missing, etc.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - Control InvOnNextPostReq - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - Control 1874636371 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - Control InvOnNextPostReq - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - Control 145061995 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether you want to post the documents that are being tested as shipped/received, as invoiced or as shipped/received and invoiced. Select the check box next to each option that you want to select.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - Control ShipReceiveOnNextPostReq - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - Control 145061995 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship/Receive</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - Control ShipReceiveOnNextPostReq - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - Control 3158431365 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want dimensions information for the journal lines that you want to include in the report.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - Control ShowDim - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - Control 3158431365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Dimensions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - Control ShowDim - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - Control 218065065 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want the test report to show the item charges that have been assigned to the sales document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - Control ShowItemChargeAssignment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - Control 218065065 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Item Charge Assgnt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - Control ShowItemChargeAssignment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 547081506 - Control 1971761733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Sales Document - Test - Control Summarize - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CPI Suggest Vendor Payments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 4217352853" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balancing account must be %1 or %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType BalAccountTypeErr</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 2053384910" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment of %1 %2 </source>
+          <note from="Developer" annotates="general" priority="2">%1 document type, %2 Document No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType MessageToRecipientMsg</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 4219859632" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are payments in %1 %2, %3 %4, %5 %6</source>
+          <note from="Developer" annotates="general" priority="2">There are payments in Journal Template Name PAYMENT, Journal Batch Name GENERAL, Applies-to Doc. No. 101321</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType NotSuggestedPaymentInfoTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 3434512165" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot use Find Payment Discounts or Summarize per Vendor together with Calculate Posting Date from Applies-to-Doc. Due Date, because the resulting posting date might not match the payment discount date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType PmtDiscUnavailableErr</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 2094329419" size-unit="char" translate="yes" xml:space="preserve">
+          <source>For one or more entries, the requested posting date is before the work date.\\These posting dates will use the work date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType ReplacePostingDateMsg</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 1436638643" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are payments in other journal batches that are not suggested here. This helps avoid duplicate payments. To add them to this batch, remove the payment from the other batch, and then suggest payments again.\\Do you want to review the payments from the other journal batches now?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType ReviewNotSuggestedLinesQst</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 758381069" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The value in the Starting Document No. field must have a number so that we can assign the next number in the series.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType StartingDocumentNoErr</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In the Last Payment Date field, specify the last possible date that payments must be made.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In the Posting Date field, specify the date that will be used as the posting date for the journal entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In the Starting Document No. field, specify the first document number to be used.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The payment date is earlier than %1.\\Do you still want to run the batch job?</source>
+          <note from="Developer" annotates="general" priority="2">%1 is a date</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 1370456556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The batch job was interrupted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType Text005</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 2008153173" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processing vendors     #1##########</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType Text006</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 2645849790" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processing vendors for payment discounts #1##########</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType Text007</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 3283546407" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inserting payment journal lines #1##########</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType Text008</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 3921243024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be G/L Account or Bank Account.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType Text009</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 1664139952" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be filled only when %2 is Bank Account.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType Text010</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 1026443335" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Vendor Priority must be activated when the value in the Amount Available field is not 0.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType Text011</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 2301836569" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Vendor Priority must be activated when the value in the Amount Available Amount (LCY) field is not 0.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType Text013</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 557655741" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If %1 = %2 and you have not selected the Summarize per Vendor field,\ then you must select the New Doc. No. per Line.</source>
+          <note from="Developer" annotates="general" priority="2">If Bank Payment Type = Computer Check and you have not selected the Summarize per Vendor field,\ then you must select the New Doc. No. per Line.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType Text017</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 1940672225" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have only created suggested vendor payment lines for the %1 %2.\ However, there are other open vendor ledger entries in currencies other than %2.\\</source>
+          <note from="Developer" annotates="general" priority="2">You have only created suggested vendor payment lines for the Currency Code EUR.\ However, there are other open vendor ledger entries in currencies other than EUR.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType Text020</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 2578368842" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have only created suggested vendor payment lines for the %1 %2.\ There are no other open vendor ledger entries in other currencies.\\</source>
+          <note from="Developer" annotates="general" priority="2">You have only created suggested vendor payment lines for the Currency Code EUR\ There are no other open vendor ledger entries in other currencies.\\</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType Text021</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 665278991" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have created suggested vendor payment lines for all currencies.\\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType Text022</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 196491397" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are one or more entries for which no payment suggestions have been made because the posting dates of the entries are later than the requested posting date. Do you want to see the entries?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType Text024</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 834188014" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 with the number %2 has a %3 with the number %4.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType Text025</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 3252508439" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ACH_%1 Inv %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType text50014</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - NamedType 2778598368" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment of %1 %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - NamedType Text50015</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 1070872126 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the journal batch name of the payment journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control JournalBatchName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 1744706346 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the journal template name of the payment journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control JournalTemplateName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 1565063448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Journal Line Generation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control Fill in Journal Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 3575898225 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the balancing account number that payments on the payment journal are posted to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control BalAccountNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 3575898225 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bal. Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control BalAccountNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 3725994770 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the balancing account type that payments on the payment journal are posted to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control BalAccountType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 3725994770 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bal. Account Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control BalAccountType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 1556959688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the check type to be used, if you use Bank Account as the balancing account type.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control BankPaymentType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 1556959688 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Payment Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control BankPaymentType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 4115481519 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a period of time that will separate the payment posting date from the due date on the invoice. Example 1: To pay the invoice on the Friday in the week of the due date, enter CW-2D (current week minus two days). Example 2: To pay the invoice two days before the due date, enter -2D (minus two days).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control DueDateOffset - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 4115481519 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applies-to-Doc. Due Date Offset</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control DueDateOffset - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 2498716673 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Insert Invoice Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control InsertInvoiceDesc - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 3460385088 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want the batch job to fill in the payment journal lines with consecutive document numbers, starting with the document number specified in the Starting Document No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control NewDocNoPerLine - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 3460385088 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Doc. No. per Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control NewDocNoPerLine - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 3037438984 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date for the posting of this batch job. By default, the working date is entered, but you can change it.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control PostingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 3037438984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control PostingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 1797998410 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the next available number in the number series for the journal batch that is linked to the payment journal. When you run the batch job, this is the document number that appears on the first payment journal line. You can also fill in this field manually.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control StartingDocumentNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 1797998410 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control StartingDocumentNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 671266407 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the due date on the purchase invoice will be used as a basis to calculate the payment posting date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control UseDueDateAsPostingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 671266407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculate Posting Date from Applies-to-Doc. Due Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control UseDueDateAsPostingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 105024216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find Payments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control Find Payments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 270203254 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a maximum amount (in LCY) that is available for payments. The batch job will then create a payment suggestion on the basis of this amount and the Use Vendor Priority check box. It will only include vendor entries that can be paid fully.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control Available Amount (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 270203254 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Available Amount (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control Available Amount (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 446295203 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether to exclude payments that are already included in another journal batch from new suggested payments. This helps avoid duplicate payments.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control CheckOtherJournalBatches - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 446295203 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check Other Journal Batches</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control CheckOtherJournalBatches - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 2463028275 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want the batch job to include vendor ledger entries for which you can receive a payment discount.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control FindPaymentDiscounts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 2463028275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find Payment Discounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control FindPaymentDiscounts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 941964432 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the latest payment date that can appear on the vendor ledger entries to be included in the batch job. Only entries that have a due date or a payment discount date before or on this date will be included. If the payment date is earlier than the system date, a warning will be displayed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control LastPaymentDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 941964432 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Payment Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control LastPaymentDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 41713295 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you do not want the batch job to insert payment journal lines for documents for which payments have already been exported to a bank file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control SkipExportedPayments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 41713295 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Skip Exported Payments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control SkipExportedPayments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 4125201959 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the Priority field on the vendor cards will determine in which order vendor entries are suggested for payment by the batch job. The batch job always prioritizes vendors for payment suggestions if you specify an available amount in the Available Amount (LCY) field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control UseVendorPriority - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 4125201959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Vendor Priority</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control UseVendorPriority - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 970280427 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Summarize Results</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control Summarize Results - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 3061097395 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the dimensions that you want the batch job to consider.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control SummarizePerDimText - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 3061097395 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>By Dimension</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control SummarizePerDimText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 4147531868 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want the batch job to make one line per vendor for each currency in which the vendor has ledger entries. If, for example, a vendor uses two currencies, the batch job will create two lines in the payment journal for this vendor. The batch job then uses the Applies-to ID field when the journal lines are posted to apply the lines to vendor ledger entries. If you do not select this check box, then the batch job will make one line per invoice.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control SummarizePerVendor - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 685612869 - Control 4147531868 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Summarize per Vendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CPI Suggest Vendor Payments - Control SummarizePerVendor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3596197132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Electronic Payment PACT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ExportElectronicPaymentFileCPI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3596197132 - NamedType 3897060352" size-unit="char" translate="yes" xml:space="preserve">
+          <source>For Electronic Payments, the %1 must be %2 or %3.</source>
+          <note from="Developer" annotates="general" priority="2">%1=Balance account type,%2=Customer table caption,%3=Vendor table caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ExportElectronicPaymentFileCPI - NamedType AccountTypeErr</note>
+        </trans-unit>
+        <trans-unit id="Report 3596197132 - NamedType 2524252181" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warning:  Transactions cannot be financially voided when Force Doc. Balance is set to No in the Journal Template.  Do you want to continue anyway?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ExportElectronicPaymentFileCPI - NamedType CannotVoidQst</note>
+        </trans-unit>
+        <trans-unit id="Report 3596197132 - NamedType 477211645" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 is not a valid %2 in %3 %4.</source>
+          <note from="Developer" annotates="general" priority="2">%1=Bank account export format,%2=Bank account export format field caption,%3=Bank account table caption,%4=Bank account number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ExportElectronicPaymentFileCPI - NamedType InvalidExportFormatErr</note>
+        </trans-unit>
+        <trans-unit id="Report 3596197132 - NamedType 1026676897" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Process cancelled at user request.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ExportElectronicPaymentFileCPI - NamedType UserCancelledErr</note>
+        </trans-unit>
+        <trans-unit id="Report 3596197132 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ExportElectronicPaymentFileCPI - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3596197132 - Control 3540653242 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the bank account that the payment is transmitted to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ExportElectronicPaymentFileCPI - Control BankAccountNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3596197132 - Control 3540653242 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ExportElectronicPaymentFileCPI - Control BankAccountNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3596197132 - Control 3013609057 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies what will occur if the posting date does not match the settle date. The options are to change the posting date to match the entered settle date, or to skip any payment journal lines where the entered posting date does not match the settle date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ExportElectronicPaymentFileCPI - Control PostingDateOption - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3596197132 - Control 3013609057 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If Posting Date does not match Settle Date:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ExportElectronicPaymentFileCPI - Control PostingDateOption - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3596197132 - Control 3013609057 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Change Posting Date To Match,Skip Lines Which Do Not Match</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ExportElectronicPaymentFileCPI - Control PostingDateOption - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 3596197132 - Control 2145255885 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the settle date that will be transmitted to the bank. This date will become the posting date for the exported payment journal entries. Transmission should occur two or three banking days before the settle date. Ask your bank for the exact number of days.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ExportElectronicPaymentFileCPI - Control SettleDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3596197132 - Control 2145255885 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Settle Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ExportElectronicPaymentFileCPI - Control SettleDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2053564073 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Financial Management Rules</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Financial Management Rules - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2053564073 - NamedType 1112468270" size-unit="char" translate="yes" xml:space="preserve">
+          <source>See Attachment for Expenditure Details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Financial Management Rules - NamedType TextExpDetails</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IDC Recovery Generation - CPI</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 3285233284" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType AmountCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 3965033973" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType AmountCaption_Control1102633025Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 3975648014" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType AmountCaption_Control1102633035Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 3526367785" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount Calculated</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType Amount_CalculatedCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 3183599253" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount To Post</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType Amount_To_PostCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 2177940495" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Audit Trail - Limits Tab</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType Audit_Trail___Limits_TabCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 1224276059" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Audit Trail - Rate Tab</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType Audit_Trail___Rate_TabCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 160767170" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Audit Trail - Source Tab</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType Audit_Trail___Source_TabCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 417649558" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Award Rate Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType Award_Rate_CodeCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 1273377461" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType CompanyCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 2374046806" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType CompanyCaption_Control1102633027Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType CurrReport_PAGENOCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 817831222" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType DescriptionCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 404446312" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType DescriptionCaption_Control1102633028Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 1177560891" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType DescriptionCaption_Control1102633034Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 2124006630" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType Document_No_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 2902709975" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType Document_No_Caption_Control1102633012Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 2133802218" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType Document_No_Caption_Control1102633033Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 720216566" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Limit Amount To</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType Limit_AmountCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 4156337048" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prior Amt. Posted</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType Prior_Amt__PostedCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 1799398212" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prior Amt. Posted</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType Prior_Amt__PostedCaption_Control1102633008Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 1476004522" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType RateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 3878896693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType RateCaption_Control1102633009Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 3060538824" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rate Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType Rate_CodeCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 2126010356" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rule Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType Rule_CodeCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 2583637590" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date is required.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType SNText002</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 1945940973" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No Target lines were found for Award Rule %1, Award Rate Code %2, Document No. %3.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType SNText003</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 3052425184" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A Document No is required on each Award Rule Line.  Award Rule=%1, Type=%2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType SNText004</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 2414728567" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date must be a month ending date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType SNText005</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 32851122" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fund: </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType SNText006</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 3690121801" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Detail Lines cannot be zero.  Award Rule = %1, Document No. = %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType SNText007</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 501638716" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot change the Fund when setup as Traditional, Non-editable.  Award = %1, Award Rule = %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType SNText008</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 1342840974" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType Source_AmountCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - NamedType 841045824" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - NamedType Source_AmountCaption_Control1102633031Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - Control 4224691649 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Audit Trail</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - Control AuditTrail - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - Control 3025077780 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Page per Award</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - Control AuditTrailNewPage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - Control 3037438984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - Control PostingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1176049068 - Control 1318948508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Write to Gen. Journal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Indirect Cost Recovery CPI - Control PosttoGL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IDC Recovery Generation - CPI</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 3285233284" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType AmountCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 3965033973" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType AmountCaption_Control1102633025Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 3975648014" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType AmountCaption_Control1102633035Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 3526367785" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount Calculated</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType Amount_CalculatedCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 3183599253" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount To Post</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType Amount_To_PostCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 2177940495" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Audit Trail - Limits Tab</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType Audit_Trail___Limits_TabCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 1224276059" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Audit Trail - Rate Tab</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType Audit_Trail___Rate_TabCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 160767170" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Audit Trail - Source Tab</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType Audit_Trail___Source_TabCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 417649558" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Award Rate Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType Award_Rate_CodeCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 1273377461" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType CompanyCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 2374046806" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType CompanyCaption_Control1102633027Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType CurrReport_PAGENOCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 817831222" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType DescriptionCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 404446312" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType DescriptionCaption_Control1102633028Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 1177560891" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType DescriptionCaption_Control1102633034Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 2124006630" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType Document_No_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 2902709975" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType Document_No_Caption_Control1102633012Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 2133802218" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType Document_No_Caption_Control1102633033Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 720216566" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Limit Amount To</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType Limit_AmountCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 4156337048" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prior Amt. Posted</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType Prior_Amt__PostedCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 1799398212" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prior Amt. Posted</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType Prior_Amt__PostedCaption_Control1102633008Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 1476004522" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType RateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 3878896693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType RateCaption_Control1102633009Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 3060538824" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rate Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType Rate_CodeCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 2126010356" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rule Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType Rule_CodeCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 2583637590" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date is required.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType SNText002</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 1945940973" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No Target lines were found for Award Rule %1, Award Rate Code %2, Document No. %3.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType SNText003</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 3052425184" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A Document No is required on each Award Rule Line.  Award Rule=%1, Type=%2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType SNText004</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 2414728567" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date must be a month ending date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType SNText005</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 32851122" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fund: </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType SNText006</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 3690121801" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Detail Lines cannot be zero.  Award Rule = %1, Document No. = %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType SNText007</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 501638716" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot change the Fund when setup as Traditional, Non-editable.  Award = %1, Award Rule = %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType SNText008</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 1342840974" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType Source_AmountCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - NamedType 841045824" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - NamedType Source_AmountCaption_Control1102633031Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - Control 4224691649 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Audit Trail</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - Control AuditTrail - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - Control 3025077780 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Page per Award</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - Control AuditTrailNewPage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - Control 3037438984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - Control PostingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3129338921 - Control 1318948508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Write to Gen. Journal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Old Indirect Cost Recovery CPI - Control PosttoGL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1406141430 - Action 2504341645 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3196174509">
+          <source>Create payment suggestions as lines in the payment journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PaymentJournalExt - Action CPISuggestVendorPayments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1406141430 - Action 2504341645 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3196174509">
+          <source>CPI Suggest Vendor Payments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PaymentJournalExt - Action CPISuggestVendorPayments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971665370 - Field 266047180 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4012248026">
+          <source>Agreement Officer Email</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AwardNVG - Field Agreement Officer Email - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971665370 - Field 3863263917 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4012248026">
+          <source>Agreement Officer Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AwardNVG - Field Agreement Officer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971665370 - Field 3177366505 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4012248026">
+          <source>Agreement Officer Rep Email</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AwardNVG - Field Agreement Officer Rep Email - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971665370 - Field 1308995024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4012248026">
+          <source>Agreement Officer Rep Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AwardNVG - Field Agreement Officer Rep Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971665370 - Field 1775799090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4012248026">
+          <source>Chief of Party</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AwardNVG - Field Chief of Party - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971665370 - Field 4285822722 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4012248026">
+          <source>Cost Share</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AwardNVG - Field Cost Share - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971665370 - Field 284764054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4012248026">
+          <source>Country/Region Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AwardNVG - Field Country/Region Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971665370 - Field 3013780566 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4012248026">
+          <source>Field Finance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AwardNVG - Field Field Finance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971665370 - Field 3938095806 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4012248026">
+          <source>Field Office</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AwardNVG - Field Field Office - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971665370 - Field 72562510 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4012248026">
+          <source>Finance Officer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AwardNVG - Field Finance Officer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971665370 - Field 3894492757 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4012248026">
+          <source>Funder Type Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AwardNVG - Field Funder Type Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971665370 - Field 1535829798 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4012248026">
+          <source>GC&amp;C Manager</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AwardNVG - Field GC&amp;C Manager - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971665370 - Field 1065614384 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4012248026">
+          <source>HQ Backstopper 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AwardNVG - Field HQ Backstopper 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971665370 - Field 1703311001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4012248026">
+          <source>HQ Backstopper 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AwardNVG - Field HQ Backstopper 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971665370 - Field 3142011833 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4012248026">
+          <source>IDC Provisional Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AwardNVG - Field IDC Provisional Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971665370 - Field 1839353815 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4012248026">
+          <source>IDC Provisional Code 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AwardNVG - Field IDC Provisional Code 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971665370 - Field 729629103 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4012248026">
+          <source>Indirect Cost Recovery Code 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AwardNVG - Field Indirect Cost Recovery Code 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971665370 - Field 1381242998 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4012248026">
+          <source>Pass Through</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AwardNVG - Field Pass Through - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971665370 - Field 1193476784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4012248026">
+          <source>Program Director</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AwardNVG - Field Program Director - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971665370 - Field 1317219176 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4012248026">
+          <source>VAT Reporting Required</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension AwardNVG - Field VAT Reporting Required - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 964418956 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3413189046">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CPI Payment Buffer - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 964418956 - Field 3087351764 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3413189046">
+          <source>External Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CPI Payment Buffer - Field ExtDocNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1785921497 - Field 1997869518 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2647920431">
+          <source>Extended Text</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TermsandConditionsExt - Field Extended Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1283218656 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3989583842">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension VendorPmtBufferExt - Field Description - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
