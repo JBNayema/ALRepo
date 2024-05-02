@@ -1,4 +1,4 @@
-tableextension 50102 "CPI Payment Buffer" extends "payment Buffer"
+tableextension 50102 "CPI Payment Buffer" extends "Payment Buffer"
 {
     fields
     {

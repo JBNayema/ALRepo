@@ -1493,16 +1493,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report ExportElectronicPaymentFileCPI - Control SettleDate - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 2053564073 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Financial Management Rules</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Financial Management Rules - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 2053564073 - NamedType 1112468270" size-unit="char" translate="yes" xml:space="preserve">
-          <source>See Attachment for Expenditure Details</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Financial Management Rules - NamedType TextExpDetails</note>
-        </trans-unit>
         <trans-unit id="Report 1176049068 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>IDC Recovery Generation - CPI</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2022,11 +2012,6 @@
           <source>External Document No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension CPI Payment Buffer - Field ExtDocNo - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 1785921497 - Field 1997869518 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2647920431">
-          <source>Extended Text</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TermsandConditionsExt - Field Extended Text - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1283218656 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3989583842">
           <source>Description</source>
